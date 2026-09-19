@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="个人介绍网站预览" />
+    <title>个人介绍｜Portfolio Preview</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="overrides.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <header class="topbar" id="topbar">
+      <a href="#home" class="brand" aria-label="返回首页">ABOUT ME</a>
+      <nav aria-label="页面导航">
+        <a class="active" href="#education">教育背景</a>
+        <a href="#internships">实习经历</a>
+        <a href="#campus">校园经历</a>
+        <a href="#skills">个人技能</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section" id="home">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">PERSONAL PROFILE · 2025</p>
+          <h1><span>Hello, I'm Mary</span><br /><em>马睿</em></h1>
+          <p class="intro">211本科，QS 10 硕士，拥有淘宝电商运营、奢侈品品牌 KOL 对接与小红书账号从 0 到 1 实操经验，曾协助抖音服装博主打造 5 条 10w+ 爆款视频、粉丝从 1000 增长至 4w，擅长用 SQL / Excel 做数据分析。</p>
+          <a class="round-link" href="#directory" aria-label="开始浏览"><span>SCROLL<br />TO EXPLORE</span><b>↓</b></a>
+        </div>
+        <div class="hero-visual reveal delay-1">
+          <div class="sun"></div>
+          <div class="portrait-frame">
+            <img class="mary-portrait" src="assets/mary-rui.jpg" alt="马睿的个人照片" />
+          </div>
+          <p class="photo-note">MARY RUI<br />PROFILE</p>
+          <div class="hero-stamp">CREATIVE<br />MARKETING<br />&amp; RESEARCH</div>
+        </div>
+        <aside class="hero-meta reveal delay-2" id="contact">
+          <p id="email"><span>邮箱</span><strong>1810768605@qq.com</strong></p>
+          <p><span>电话</span><strong>13758967512</strong></p>
+          <p><span>所在地</span><strong>上海</strong></p>
+        </aside>
+        <p class="vertical-word">PORTFOLIO</p>
+      </section>
+
+      <section class="directory section" id="directory">
+        <div class="directory-heading reveal">
+          <p class="eyebrow">01 — CONTENT MAP</p>
+          <h2>每一段经历，都在塑造我。</h2>
+        </div>
+        <div class="directory-list">
+          <a class="directory-item reveal" href="#education"><span>01</span><h3>教育背景</h3><p>Education</p><b>↘</b></a>
+          <a class="directory-item reveal delay-1" href="#internships"><span>02</span><h3>实习经历</h3><p>Experience</p><b>↘</b></a>
+          <a class="directory-item reveal delay-2" href="#campus"><span>03</span><h3>校园经历</h3><p>Campus</p><b>↘</b></a>
+          <a class="directory-item reveal delay-3" href="#skills"><span>04</span><h3>个人技能</h3><p>Capabilities</p><b>↘</b></a>
+        </div>
+      </section>
+
+      <section class="education section" id="education">
+        <div class="section-label reveal"><span>02</span><p>EDUCATION<br />BACKGROUND</p></div>
+        <div class="education-top reveal"><h2>学习，是我持续更新自己的方式。</h2></div>
+        <div class="education-grid">
+          <article class="degree-card ucl reveal">
+            <div class="card-photo"><img class="school-photo ucl-photo" src="assets/ucl-ioe-v2.jpg" alt="伦敦大学学院教育学院欢迎标志" /></div>
+            <span class="year">2025.09 — NOW</span>
+            <h3><strong>伦敦大学学院</strong><br /><em><strong>教育学</strong></em></h3>
+            <p>研究生 · UCL</p>
+            <div class="research">研究 GenAI 使用模式与留学生学习目标之间的关联；采用问卷与半结构化访谈，进行质性编码与主题分析。</div>
+          </article>
+          <article class="degree-card ecust reveal delay-1">
+            <div class="card-photo"><img class="school-photo ecust-photo" src="assets/ecust-gate.jpg" alt="华东理工大学校门" /></div>
+            <span class="year">2021.09 — 2025.06</span>
+            <h3><strong>华东理工大学</strong><br /><em><strong>英语本科</strong></em></h3>
+            <p>2021.09 — 2025.06 · 金融辅修</p>
+            <div class="research">用 LLAMA、问卷与 SPSS 完成三阶段数据采集与分析，识别外语能力与语言经验的动态关系；毕业论文获优秀评级。</div>
+          </article>
+          <aside class="photo-rail reveal delay-2" aria-label="教育生活照片预览栏">
+            <p>PHOTO DIARY <span>SCROLL ↓</span></p>
+            <div class="rail-images"><div class="rail-track">
+              <img src="assets/cert-01.png" alt="新青年全球胜任力人才培养计划结业证书" /><img src="assets/cert-02.jpg" alt="华东理工大学优秀奖学金证书" /><img src="assets/cert-03.jpg" alt="全国学术英语词汇竞赛二等奖证书" /><img src="assets/cert-04.jpg" alt="21世纪杯英语演讲比赛三等奖证书" /><img src="assets/cert-05.jpg" alt="策马杯英语公众演讲大赛三等奖证书" /><img src="assets/cert-06.jpg" alt="华东理工大学优秀共青团员证书" /><img src="assets/cert-07.jpg" alt="华东理工大学优秀学生干部证书" /><img src="assets/cert-08.jpg" alt="华东理工大学社会工作奖证书" /><img src="assets/cert-09.jpg" alt="全国学术英语词汇竞赛二等奖证书" /><img src="assets/cert-10.jpg" alt="华东理工大学优秀毕业生证书" />
+              <img src="assets/cert-01.png" alt="" aria-hidden="true" /><img src="assets/cert-02.jpg" alt="" aria-hidden="true" /><img src="assets/cert-03.jpg" alt="" aria-hidden="true" /><img src="assets/cert-04.jpg" alt="" aria-hidden="true" /><img src="assets/cert-05.jpg" alt="" aria-hidden="true" /><img src="assets/cert-06.jpg" alt="" aria-hidden="true" /><img src="assets/cert-07.jpg" alt="" aria-hidden="true" /><img src="assets/cert-08.jpg" alt="" aria-hidden="true" /><img src="assets/cert-09.jpg" alt="" aria-hidden="true" /><img src="assets/cert-10.jpg" alt="" aria-hidden="true" />
+            </div></div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="internships section" id="internships">
+        <div class="internship-page lacoste-page">
+          <div class="section-label reveal"><span>03 / 01</span><p>INTERNSHIP<br />EXPERIENCE</p></div>
+          <article class="ace-case reveal">
+            <header class="ace-header"><p class="project-line"><strong>2025.01 — 2025.06 · PR INTERN</strong><span>LACOSTE</span></p></header>
+            <section class="ace-gallery" aria-label="小鳄鱼网球局项目图片画廊"><div class="gallery-auto"><div class="gallery-track"><figure class="gallery-card poster-card"><img src="assets/lacoste-06.jpg" alt="小鳄鱼网球局活动总海报" /></figure><figure class="gallery-card poster-card"><img src="assets/lacoste-07.jpg" alt="人生不止ACE活动总海报" /></figure><figure class="gallery-card talent-card"><img src="assets/lacoste-05.jpg" alt="Lacoste 明星传播海报" /></figure><figure class="gallery-card talent-card"><img src="assets/lacoste-04.jpg" alt="Lacoste 高校网球联赛" /></figure><figure class="gallery-card scene-card"><img src="assets/lacoste-01.jpg" alt="小鳄鱼网球局活动现场标识" /></figure><figure class="gallery-card scene-card tilt"><img src="assets/lacoste-02.jpg" alt="小鳄鱼网球局活动周边" /></figure><figure class="gallery-card scene-card wide"><img src="assets/lacoste-03.jpg" alt="小鳄鱼网球局快闪空间" /></figure><figure class="gallery-card poster-card" aria-hidden="true"><img src="assets/lacoste-06.jpg" alt="" /></figure><figure class="gallery-card poster-card" aria-hidden="true"><img src="assets/lacoste-07.jpg" alt="" /></figure><figure class="gallery-card talent-card" aria-hidden="true"><img src="assets/lacoste-05.jpg" alt="" /></figure><figure class="gallery-card talent-card" aria-hidden="true"><img src="assets/lacoste-04.jpg" alt="" /></figure><figure class="gallery-card scene-card" aria-hidden="true"><img src="assets/lacoste-01.jpg" alt="" /></figure><figure class="gallery-card scene-card tilt" aria-hidden="true"><img src="assets/lacoste-02.jpg" alt="" /></figure><figure class="gallery-card scene-card wide" aria-hidden="true"><img src="assets/lacoste-03.jpg" alt="" /></figure></div></div></section>
+            <div class="ace-playbook"><div class="ace-title"><h2>小鳄鱼网球局</h2><p>人生不止 ACE</p></div><div class="story-route"><div class="route-line"><article><b>01</b><h4>线上话题种草</h4><p>以明星与社交内容提前制造讨论度</p></article><article><b>02</b><h4>线下快闪体验</h4><p>用“小鳄鱼网球局”承接真实到店</p></article><article><b>03</b><h4>高校联赛破圈</h4><p>进入年轻人天然聚集的运动场景</p></article></div></div></div>
+            <section class="ace-results"><p class="story-kicker">我做了什么？</p><div class="capability-grid"><article><span>沟通与对接</span><h4>KOL 合作协同</h4><p>对接体育明星、垂直 KOL 及北京八所高校，围绕 Brief、内容要点与合作节奏推进沟通，让品牌表达保持一致。</p></article><article><span>资源与关系</span><h4>北京八大高校联动</h4><p>连接八所高校的校园资源与网球场景，协同落地联赛和体验活动，让品牌进入年轻用户的真实生活。</p></article><article><span>项目与执行</span><h4>跨渠道整合推进</h4><p>把线上话题、高校联赛与线下快闪串成一条体验链路，协调不同环节按同一目标落地。</p></article></div><div class="result-note"><div class="result-copy"><p>线下快闪每日到店 UV 约 <strong>400</strong> 人次；全 Campaign 新增会员约 <strong>500</strong> 人；小红书涨粉超 <strong>4,000</strong> 人；会员网球课程预约 <strong>200+</strong>，超目标 <strong>25%</strong>。</p></div><div class="growth-chart reveal" aria-label="增长趋势示意图"><svg viewBox="0 0 320 150" role="img" aria-label="柱状图与折线图上升"><line class="chart-axis" x1="20" y1="128" x2="305" y2="128" /><rect class="chart-bar bar-one" x="48" y="86" width="28" height="42" rx="3" /><rect class="chart-bar bar-two" x="108" y="66" width="28" height="62" rx="3" /><rect class="chart-bar bar-three" x="168" y="42" width="28" height="86" rx="3" /><rect class="chart-bar bar-four" x="228" y="18" width="28" height="110" rx="3" /><polyline class="chart-line" points="62,100 122,77 182,54 242,26 286,12" /><circle class="chart-dot" cx="62" cy="100" r="4" /><circle class="chart-dot" cx="122" cy="77" r="4" /><circle class="chart-dot" cx="182" cy="54" r="4" /><circle class="chart-dot" cx="242" cy="26" r="4" /><path class="chart-arrow" d="M278 18 L286 12 L281 23" /></svg><div><span>REACH</span><strong>GROWTH ↑</strong></div></div></div></section>
+          </article>
+        </div>
+        <div class="internship-page wiley-page">
+          <div class="section-label reveal"><span>03 / 02</span><p>INTERNSHIP<br />EXPERIENCE</p></div>
+          <article class="wiley-case reveal"><header><p class="project-time">2024.07 — 2024.12 · MARKETING INTERN</p><h2>Wiley</h2><p class="wiley-subtitle">内容运营 × 学术传播物料执行</p></header><div class="wiley-grid"><section class="wiley-xhs"><div class="wiley-copy"><p class="story-kicker">01 · 小红书运营</p><h3>从 <strong>0</strong> 到 <strong>1</strong>，<br />让科研内容被看见。</h3><p>从 0 创建 Wiley 开放科研小红书账号，以“帮助科研”定位搭建术语科普与流程拆解内容框架。<span class="data-emphasis">3 个月发布笔记 6 篇、单篇最高浏览 1200+，粉丝从 0 增长至 400+</span>，跑通从选题、发布到涨粉的完整链路。</p></div><div class="xhs-screens"><img class="xhs-card first" src="assets/wiley-01-new.jpg" alt="Wiley 开放科研小红书账号截图" /><img class="xhs-card second" src="assets/wiley-02.jpg" alt="Wiley 开放科研小红书笔记截图" /></div></section><section class="wiley-materials"><div class="wiley-copy"><p class="story-kicker">02 · 活动物料执行</p><p>围绕高端教育论坛与国际前沿会议，运用 Canva 独立完成海报、横幅、易拉宝等传播物料设计 <span class="data-emphasis">50+</span> 份。</p></div><div class="wiley-flipbook" aria-label="学术宣传物料翻页展示"><img class="material-page page-one" src="assets/wiley-03.png" alt="学术宣传物料一" /><img class="material-page page-two" src="assets/wiley-04.png" alt="学术宣传物料二" /><img class="material-page page-three" src="assets/wiley-05.png" alt="学术宣传物料三" /><img class="material-page page-four" src="assets/wiley-06.png" alt="学术宣传物料四" /><p>HOVER TO PAUSE</p></div></section></div></article>
+        </div>
+        <div class="internship-page ecommerce-page">
+          <div class="section-label reveal"><span>03 / 03</span><p>INTERNSHIP<br />EXPERIENCE</p></div>
+          <div class="internship-layout reveal"><div class="internship-copy"><p class="eyebrow">2023.06 — 2023.09 · E-COMMERCE OPERATIONS</p><h2 class="ecommerce-company">乂景家居</h2><h3>淘宝电商运营</h3><div class="ecommerce-bullets"><p><strong class="ecom-lead">商品运营管理</strong>：负责淘宝邦尼美家旗舰店（家居收纳类目）日常商品运营，完成 <span class="ecom-data">20+ SKU</span> 的上下架、标题与详情页维护、库存同步与价格管理，保障商品信息准确、在售状态正常。</p><p><strong class="ecom-lead">大促活动运营</strong>：参与 <span class="ecom-data">618</span> 等平台大促，完成活动报名、商品勾选与活动价提报；在营销中心配置店铺优惠券与满减，并通过旺铺后台完成活动页面搭建与商品排期，保障大促页面按时上线。</p><p><strong class="ecom-lead">数据复盘优化</strong>：通过生意参谋监控店铺 GMV、转化率等核心指标，输出周／月度运营复盘报告 <span class="ecom-data">10+ 份</span>；通过精准选品与产品详情页的 A/B 测试，优化产品标题与图片，实现大促期间店铺 GMV 同比增长 <span class="ecom-data">13%</span>、转化率达 <span class="ecom-data">5%</span>。</p></div></div><div class="ecommerce-collage"><img class="ecom-store" src="assets/ecommerce-01.jpg" alt="淘宝店铺数据页面" /><img class="ecom-product product-one" src="assets/ecommerce-02.jpg" alt="家居收纳商品图" /><img class="ecom-product product-two" src="assets/ecommerce-03.jpg" alt="家居收纳商品图" /></div></div>
+        </div>
+      </section>
+
+      <section class="campus section" id="campus">
+        <div class="campus-visual campus-media-wall reveal" aria-label="运营账号与内容素材"><img class="ecust-one" src="assets/campus-ecust-01.jpg" alt="华理外语视频号账号截图" /><img class="ecust-two" src="assets/campus-ecust-02.jpg" alt="华理外语公众号账号截图" /><img class="fashion-one" src="assets/campus-fashion-01.jpg" alt="服装博主抖音账号截图" /><img class="fashion-two" src="assets/campus-fashion-02.png" alt="服装博主爆款视频截图" /></div>
+        <div class="campus-content">
+          <div class="section-label reveal"><span>04</span><p>CAMPUS<br />EXPERIENCE</p></div>
+          <article class="campus-card reveal delay-1">
+            <p class="eyebrow">2022.09 — 2025.06</p>
+            <h3>华东理工大学学生会<br />主席 · 新媒体部长</h3>
+            <p>统筹公众号、Bilibili、视频号内容策略与运营，从选题到发布建立三端联动机制。</p>
+            <div class="campus-numbers"><span><b>280+</b>原创内容</span><span><b>28%</b>阅读量提升</span><span><b>16%</b>粉丝增长</span></div>
+          </article>
+          <article class="campus-card taupe reveal delay-2">
+            <p class="eyebrow">2023.06 — 2024.06</p>
+            <h3>抖音服装博主<br />运营助理</h3>
+            <p>参与选品、拍摄、剪辑与复盘，围绕“甜美精致”定位打磨内容策略和爆款逻辑。</p>
+            <div class="campus-numbers"><span><b>30+</b>视频产出</span><span><b>70w+</b>最高点赞</span><span><b>4w</b>粉丝增长</span></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="skills section" id="skills">
+        <div class="section-label reveal"><span>05</span><p>SKILLS &amp;<br />LANGUAGES</p></div>
+        <div class="skills-heading reveal"><h2>把想法落地，<br /><em>也把细节做好。</em></h2></div>
+        <div class="skills-orbit reveal delay-1">
+          <div class="orbit-center">CURIOUS<br />&amp; CAPABLE</div>
+          <span class="pill one">CONTENT<br />STRATEGY</span><span class="pill two">DATA<br />ANALYSIS</span><span class="pill three">AI<br />TOOLS</span><span class="pill four">VISUAL<br />DESIGN</span><span class="pill five">BILINGUAL<br />COMMUNICATION</span>
+        </div>
+        <div class="skill-columns reveal delay-2">
+          <div><h3>工具</h3><p>Excel · SPSS · SQL<br />Canva · Figma · AI 工具<br />Vibe Coding</p></div>
+          <div><h3>语言</h3><p>TEM-8 · IELTS 7.0 · CET-6<br />中英文内容处理与沟通</p></div>
+          <div><h3>关于我</h3><p>小红书一级冲浪选手<br />猫猫狗狗忠实拥护者</p></div>
+        </div>
+      </section>
+    </main>
+    <footer><p>LET'S MAKE SOMETHING MEANINGFUL.</p><a href="#home">BACK TO TOP ↑</a></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
+
