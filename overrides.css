@@ -240,7 +240,7 @@ nav a,
 
 /* Campus work: evidence lives together in the left-hand image wall */
 .campus-media-wall { position: relative; overflow: hidden; background: #53675d; }
-.campus-media-wall img { position: absolute; width: 52%; height: 51%; display: block; object-fit: cover; filter: none; box-shadow: 0 12px 25px rgba(10,25,19,.3); transition: transform .35s ease; }
+.campus-media-wall img { position: absolute; width: 52%; height: 51%; display: block; object-fit: contain; filter: none; background: rgba(243,240,232,.1); box-shadow: 0 12px 25px rgba(10,25,19,.3); transition: transform .35s ease; }
 .campus-media-wall .ecust-one { left: 0; top: 0; object-position: top; }
 .campus-media-wall .ecust-two { right: 0; top: 0; object-position: top; }
 .campus-media-wall .fashion-one { left: 0; bottom: 0; object-position: top; }
